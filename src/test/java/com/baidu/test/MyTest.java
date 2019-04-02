@@ -25,7 +25,7 @@ public class MyTest {
         user.setLoginId("admin");
         user.setPhone("15620263150");
         user.setSex(1);
-        user.getCreateDate(new Date());
+        user.setCreateDate(new Date());
         user.setEmail("abc@qq.com");
         System.out.println(userService.add(user));
     }
